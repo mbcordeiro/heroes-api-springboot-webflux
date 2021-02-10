@@ -12,7 +12,7 @@ import reactor.core.publisher.Mono;
 
 import static com.matheuscordeiro.heroesapi.constants.HeroesConstant.*;
 
-@RestController(HEROES_ENDPOINT_LOCAL)
+@RestController(value = HEROES_ENDPOINT_LOCAL)
 @Slf4j
 public class HeroesController {
     @Autowired
